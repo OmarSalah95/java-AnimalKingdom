@@ -45,4 +45,9 @@ public abstract class AbstractAnimal {
     public void setDiscoveryYear(int discoveryYear) {
         this.discoveryYear = discoveryYear;
     }
+
+    @Override
+    public String toString() {
+        return "Animal " + name +  " Discoverd in " + discoveryYear;
+    }
 }
